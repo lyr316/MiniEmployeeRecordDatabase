@@ -25,6 +25,9 @@ private:
 	static int salary_min;
 	static int salary_max;
 	static int employee_number;
+public:
+	EmployeeRules();
+	void Init;
 };
 
 
