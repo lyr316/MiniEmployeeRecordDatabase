@@ -1,7 +1,7 @@
 /*
  * employee_rules.h
  *
- *  Created on: 2014Äê10ÔÂ20ÈÕ
+ *  Created on: 2014ï¿½ï¿½10ï¿½ï¿½20ï¿½ï¿½
  *      Author: Real
  */
 
@@ -27,7 +27,7 @@ private:
 	static int employee_number;
 public:
 	EmployeeRules();
-	void Init;
+	void Init();
 };
 
 
