@@ -12,15 +12,14 @@
 
 class Employee
 {
-private:
+public:
 	int id;
 	std::string name;
-	int birthday [3];
 	std::string department;
 	std::string position;
 	int salary;
 public:
-	Employee();
+	Employee(int id, std::string name, std::string department, std::string position, int salary);
 };
 
 #endif /* EMPLOYEE_H_ */
